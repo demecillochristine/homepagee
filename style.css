@@ -1,0 +1,83 @@
+.text1{
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 20px 23px 10px;
+    color: black;
+}
+
+.pink{
+    color: rgb(252, 140, 159);
+    text-shadow: 23px 23px 10px rgb(214, 136, 136);
+}
+.blue{
+    color: rgb(130, 130, 248);
+    text-shadow: 23px 23px 10px rgb(130, 130, 248);
+}
+.maintext1{ 
+  user-select: none; 
+  font-family: "Pacifico", cursive;  
+  text-align: center; 
+  display: block; 
+  font-size: 40px; 
+  position: relative;
+ top: -70px;
+ 
+} 
+    
+ body {
+    height: 100vh;
+    background: #f4f4f4;
+    margin: 0;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+
+  .centered-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+  .balloon {
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 100px;
+  }
+
+  .balloon1 {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 100px;
+  }
+
+  .btn {
+    position: absolute;
+    padding: 20px 40px;    
+      background-color: #6aa7e9;
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+    border-radius: 200px;    
+    font-size: 24px;       
+    font-weight: bold;
+    
+  }
+
+   .btn:active,
+  .btn:hover {
+    transform: scale(1.2);
+  }
+ 
+  #btn1 { top: 60px; left: 150px; background-color: rgba(238, 130, 238, 0.808);}
+  #btn2 { top: 60px; right: 150px; background-color: rgba(243, 243, 140, 0.849);}
+  #btn3{top: 380px; right: 100px; background-color: #48e4ffc2;}
+  #btn4{top: 380px; left: 100px; background-color: rgba(255, 108, 54, 0.767);}
+  #btn5 { top: 90%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(153, 231, 36, 0.808);}
+
+   #btn5:hover,
+  #btn5:active {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+  
